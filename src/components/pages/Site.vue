@@ -12,13 +12,13 @@ const menuOptions = [
     icon: renderIcon(StatusIcon),
     children: [
       {
-        label: '低分辨率数据展示',
-        key: 'lowRes',
+        label: '超分辨率重建',
+        key: 'super-res',
         icon: renderIcon(StatusIcon),
       },
       {
-        label: '高分辨率数据展示',
-        key: 'highRes',
+        label: '风格编辑',
+        key: 'style-edit',
         icon: renderIcon(StatusIcon),
       },
     ],

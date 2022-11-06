@@ -4,26 +4,26 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 // pages
 import Site from '@/components/pages/Site.vue' // 框架页
 import LoginPage from '@/components/pages/LoginPage.vue' // 登陆页面
-import LowResPage from '@/components/pages/LowResPage.vue' // 数据展示页面
-import HighResPage from '@/components/pages/HighResPage.vue' // 数据展示页面
+import StyleEdit from '@/components/pages/StyleEdit.vue' // 数据展示页面
+import SuperRes from '@/components/pages/SuperRes.vue' // 数据展示页面
 import AnalyzePage from '@/components/pages/AnalyzePage.vue' // 数据展示页面
 
 const routes = [
   {
     path: '/',
     name: 'index',
-    redirect: 'lowRes',
+    redirect: 'super-res',
     component: Site,
     children: [
       {
-        path: 'lowRes',
-        name: 'lowRes',
-        component: LowResPage,
+        path: 'style-edit',
+        name: 'styleEdit',
+        component: StyleEdit,
       },
       {
-        path: 'highRes',
-        name: 'highRes',
-        component: HighResPage,
+        path: 'super-res',
+        name: 'superRes',
+        component: SuperRes,
       },
       {
         path: 'analyze',
