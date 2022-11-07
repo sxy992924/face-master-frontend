@@ -117,7 +117,7 @@ function handleSwinIR() {
       </template>
       SwinIR
     </n-button>
-    <div class="w-[448px] h-[448px] border border-black">
+    <div class="w-[448px] h-[448px] bg-white">
       <n-image
         v-show="showHighImage"
         class="justify-center"

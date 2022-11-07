@@ -18,7 +18,8 @@
     "sider",
     "stargan",
     "stgan",
-    "Swin"
+    "Swin",
+    "TPRFPR"
   ],
   "commentTranslate.targetLanguage": "en",
   "commentTranslate.hover.enabled": true
